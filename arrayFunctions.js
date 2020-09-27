@@ -68,9 +68,6 @@ function getDuplicateCount(x, numbers) {
  * - Use string method .endsWith()
  */
 function youGottaCalmDown(s) {
-  // while(s.endsWith("!!")) s=s.slice(0,-1);
-  // return s;
-  
   for (let index = 0; index < s.length; index++) {
     if (s[index] === "!"){return s.slice(0,index+1);}
   }
