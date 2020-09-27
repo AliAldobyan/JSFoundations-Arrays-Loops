@@ -74,6 +74,7 @@ function youGottaCalmDown(s) {
   for (let index = 0; index < s.length; index++) {
     if (s[index] === "!"){return s.slice(0,index+1);}
   }
+  return s
 }
-console.log(youGottaCalmDown("Hellooooo"))
+console.log(youGottaCalmDown("Taylor Schwifting!!!!!!!!!!!"))
 module.exports = { getOdds, getEvens, getDuplicateCount, youGottaCalmDown };
